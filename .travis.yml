@@ -4,3 +4,5 @@ jdk:
   - elvbisdocker/serverapi:v2
 script:
   - ./mvnw clean install
+before_install:
+  - chmod +x mvnw
