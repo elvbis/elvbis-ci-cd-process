@@ -1,5 +1,5 @@
 language: java
 jdk:
-  - openjdk17
+  - elvbisdocker/serverapi:v2
 script:
   - ./mvnw clean install
